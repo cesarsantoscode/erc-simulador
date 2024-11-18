@@ -619,7 +619,7 @@ def simulador():
             monto=monto,
             num_cuotas=num_cuotas,
             tea=tea,
-            fecha_desembolso=fecha_desembolso,
+            fecha_desembolso=fecha_desembolso.strftime('%d/%m/%Y'),
             tipo_cuota=tipo_cuota,
             tasa_desgravamen=tasa_desgravamen,
             tasa_derecho=tasa_derecho,
